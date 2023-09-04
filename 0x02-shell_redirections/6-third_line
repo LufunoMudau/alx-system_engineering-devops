@@ -1,2 +1,2 @@
 #!/bin/bash
-display_line "iacta" 3
+head -3 iacta | tail -1
