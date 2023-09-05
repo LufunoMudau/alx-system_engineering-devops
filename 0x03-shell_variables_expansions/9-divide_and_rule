@@ -1,2 +1,2 @@
 #!/bin/bash
-RESULT=$(bc <<< "scale=2; $POWER_VALUE / $DIVIDE_VALUE")
+echo $(($POWER/$DIVIDE))
